@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ninja 2 Việt Hóa Online</title>
+  <title>🎮 Memories Gaming - Ninja 2 Việt Hóa</title>
   <style>
     body {
       background-color: #0e0e0e;
@@ -36,19 +36,19 @@
   </style>
 </head>
 <body>
-  <header>🎮 Ninja 2 Việt Hóa - Chơi Online</header>
+  <header>🎮 Ninja 2 Việt Hóa Online</header>
   <p>Nhấn vào khung bên dưới để bắt đầu trò chơi.</p>
 
   <!-- Khung chơi game -->
   <iframe id="emulator" title="Ninja 2" src=""></iframe>
 
   <footer>
-    © 2025 Game Java Hội Ức - Không chịu trách nhiệm bản quyền trò chơi.
+    © 2025 MemoriesGaming - Không chịu trách nhiệm bản quyền trò chơi.
   </footer>
 
   <script>
-    // Chạy game .jar qua emulator online
-    const gameUrl = "ninja2-crack.jar"; // Tên file game (đặt cùng thư mục với index.html)
+    // Đường dẫn tới game .jar (nằm cùng thư mục với file index.html)
+    const gameUrl = "ninja2-crack.jar";
     const emulatorUrl = "https://j2me.js.org/emulator.html?url=" + gameUrl;
     document.getElementById("emulator").src = emulatorUrl;
   </script>
